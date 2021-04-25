@@ -10,5 +10,8 @@ public class Index {
     public String index(){
         return "ok";
     }
-
+    @GetMapping("/index2")
+    public String index2(){
+        return "ok";
+    }
 }
